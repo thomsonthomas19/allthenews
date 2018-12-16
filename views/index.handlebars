@@ -1,0 +1,26 @@
+{{#each Articles}}
+<hr>
+<div class="container">
+      <form action="/submit" method="post" id="{{_id}}">
+      <p>Comment on this post!</p>
+      <input type="text" name="commenter" placeholder="commenter">
+      <input type="text" name="comment" placeholder="comment">
+
+      <input type="submit">
+    </form>
+  <div class="row">
+    <div class="col-3">
+      <img src="{{img}}" alt="{{alt}}">
+    </div>
+    <div class="col-3">
+      <a href="{{link}}">
+        <h3>{{title}}</h3>
+      </a>
+    </div>
+    <div class="col-6">
+      <p>{{blurb}}</p>
+    </div>
+  </div>
+</div>
+<hr>
+{{/each}}

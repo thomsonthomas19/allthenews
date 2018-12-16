@@ -1,0 +1,28 @@
+{
+  "name": "allthenews",
+  "version": "1.0.0",
+  "description": "All the news thats fit to scrape homework assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomsonthomas19/allthenews.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomsonthomas19/allthenews/issues"
+  },
+  "homepage": "https://github.com/thomsonthomas19/allthenews#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.3.15",
+    "morgan": "^1.9.1"
+  }
+}
